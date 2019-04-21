@@ -1,0 +1,42 @@
+$large: 'screen and (max-width: 1136px)';
+$small: 'screen and (max-width: 1005px)';
+$s900: 'screen and (max-width: 900px)';
+$mobile: 'screen and (max-width: 768px)';
+
+@font-face {
+	font-family: 'Poppins Bold';
+	src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+			 url('../fonts/Poppins-Bold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Poppins ExtraBold';
+	src: url('../fonts/Poppins-ExtraBold.woff2') format('woff2'),
+			 url('../fonts/Poppins-ExtraBold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Poppins SemiBold';
+	src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+			 url('../fonts/Poppins-SemiBold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Open Sans ExtraBold';
+	src: url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+			 url('../fonts/OpenSans-ExtraBold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+			 url('../fonts/OpenSans-Bold.woff') format('woff');
+}
+
+$font-hel: 'Raleway';
+$font-pb: 'Poppins Bold', 'Open Sans ExtraBold';
+$font-peb: 'Poppins ExtraBold', 'Open Sans ExtraBold';
+$font-psb: 'Poppins SemiBold', 'Open Sans Bold';
+
+$font-ral: 'Raleway', 'sans-serif';
+
+
+body {
+	// background-color: yellow;
+}
